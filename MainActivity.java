@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.decent:
                         answer=Double.parseDouble(e1.getText().toString());
                         answer=(answer*18)/100;
+                        break;
                     case R.id.ok:
                         answer=Double.parseDouble(e1.getText().toString());
                         answer=(answer*15)/100;
